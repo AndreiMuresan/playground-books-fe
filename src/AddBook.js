@@ -17,7 +17,7 @@ function AddBook() {
       }
     })
       .then(response => {
-        if (response.data == "Saved" ) {
+        if (response.data === "Saved" ) {
           toast.success('Book added successfully!');
           setName('');
           setAuthor('');
