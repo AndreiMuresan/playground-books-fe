@@ -21,7 +21,7 @@ jobs:
       with:
         switches: -avzr --delete
         path: build/
-        remote_path: /opt/nginx-sites/books-fe/
-        remote_host: 107.21.76.138
-        remote_user: ec2-user
+        remote_path: /opt/applications/books-fe/
+        remote_host: 3.237.77.85
+        remote_user: ubuntu
         remote_key: ${{ secrets.DEPLOY_KEY }}
